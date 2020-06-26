@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_mysql",
+  "version": "1.0.0",
+  "description": "Basic Nodejs Application with database connection",
+  "main": "index.js",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tejaswini-Nalla/NodeJS_MySQL.git"
+  },
+  "author": "Tejaswini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tejaswini-Nalla/NodeJS_MySQL/issues"
+  },
+  "homepage": "https://github.com/Tejaswini-Nalla/NodeJS_MySQL#readme"
+}
