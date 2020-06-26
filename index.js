@@ -11,3 +11,9 @@ connection.connect(function(err) {
     }
     console.log("Connected to MYSQL server")
 });
+connection.end(function(err) {
+    if (err) {
+        return console.log("Error:" + err.message);
+    }
+    console.log("Closing the database connection");
+});
